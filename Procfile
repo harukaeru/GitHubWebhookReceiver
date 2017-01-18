@@ -1,1 +1,1 @@
-web: sudo python -m http.server 443
+web: gunicorn kerorin_module:kerorin_app
